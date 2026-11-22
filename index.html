@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT3 Final Drill - Math-Based Animation in p5.js</title>
+  <!-- Load p5.js via CDN before loading sketch.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      margin: 0;
+    }
+    main {
+      margin: 15px 0;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .info-box {
+      max-width: 700px;
+      background: #1e1e1e;
+      padding: 15px 25px;
+      border-radius: 8px;
+      line-height: 1.6;
+    }
+    a { color: #4db8ff; }
+  </style>
+</head>
+<body>
+
+  <h1>Trigonometric Circular Orbit Animation</h1>
+  <p><strong>Student:</strong> Kyle Aldrich P. Taganna | <strong>Section:</strong> BSIT 2-B</p>
+
+  <!-- p5.js canvas renders inside <main> automatically -->
+  <main></main>
+
+  <div class="info-box">
+    <h3>Controls</h3>
+    <ul>
+      <li><strong>SPACEBAR:</strong> Pause / Resume animation</li>
+      <li><strong>UP / DOWN Arrows:</strong> Increase / Decrease angular speed</li>
+      <li><strong>LEFT / RIGHT Arrows:</strong> Decrease / Increase orbit radius</li>
+    </ul>
+
+    <h3>Video Explanation</h3>
+    <p>Watch the math &amp; code explanation here: <a href="YOUR_VIDEO_LINK_HERE" target="_blank">Video Explanation Link</a></p>
+
+    <h3>Sources &amp; AI Tools Used</h3>
+    <ul>
+      <li><strong>p5.js Library:</strong> Official p5.js CDN (v1.9.4) for <code>setup()</code>, <code>draw()</code>, <code>cos()</code>, and <code>sin()</code> functions.</li>
+      <li><strong>AI Assistance:</strong> Google Gemini was used to help structure the HTML boilerplate, organize inline code comments, and format the live coordinate HUD for verification.</li>
+    </ul>
+  </div>
+
+  <!-- Load your sketch after p5.js -->
+  <script src="sketch.js"></script>
+</body>
+</html>`
